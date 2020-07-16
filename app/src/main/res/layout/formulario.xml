@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="230dp"
+            android:layout_height="43dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Registrate" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextPersonName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Correo"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Repite Correo"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextEmailAddres"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextTextPasswor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextPassword"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Repite Contraseña"
+            android:inputType="textPassword" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="197dp"
+            android:layout_height="94dp"
+            app:srcCompat="@drawable/ic_launcher_foreground"
+            android:layout_centerHorizontal="true"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="171dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+
+            android:text="Terminos y condiciones" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="150dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Por historiografía griega se entiende a la escritura de la historia de la Antigua Grecia, desde el siglo v a. C. hasta el siglo iv d. C., desde Heródoto hasta Zósimo, pasando por Tucídides, Posidonio, Polibio, etcétera. En total, Jacoby, en Fragmente der griechischen Historiker, identificó a 856 historiadores griegos, incluidos los mitógrafos y cronistas locales.  El concepto de historiografía nació en Grecia, aunque se acepta que anteriormente ya existía una concepción histórica en Oriente, un deseo de permanencia de todo lo que se ha hecho. Ahora bien, esa concepción histórica primitiva es una mera transmisión de datos históricos que, como las listas reales del Antiguo Egipto, carecían del análisis histórico que se hace actualmente, sin negar por ello su gran valor documental.  Se considera a Heródoto el primer historiador, tanto en la actualidad como en la antigüedad. Tucídides estableció posteriormente la base racional y metodológica de una historiografía nacida como reacción ante lo irracional de la mitología griega. Previamente, ya Hecateo de Mileto había atenuado lo sobrenatural, pero la separación total no se produce hasta Tucídides. Heródoto concibió su Historia como un medio de evitar el olvido de aquello que merecía ser recordado. En la Antigua Grecia se veía también la historia como medio de mostrar ejemplos, aunque no modelos de acontecimientos futuros. Asimismo desde Heródoto los historiadores realizan un examen crítico del pasado y de los hechos supuestamente acaecidos. Heródoto, así lo expresa en IV, 195, 2: «realmente, ignoro si esto es verdad, simplemente consigno lo que cuentan»." />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+
+
+            android:layout_marginTop="270dp"
+            />
+
+
+    </RelativeLayout>
+</LinearLayout>
